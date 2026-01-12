@@ -14,11 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "infoPlist": {
-        "NSMicrophoneUsageDescription": "This app needs access to the microphone for voice commands.",
-        "NSCameraUsageDescription": "This app needs access to the camera for vision features.",
-        "NSPhotoLibraryUsageDescription": "This app needs access to photos for uploading."
-      }
+      "bundleIdentifier": "com.faham112sorganization.mjai"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,7 +28,8 @@
         "android.permission.CALL_PHONE",
         "android.permission.MODIFY_AUDIO_SETTINGS",
         "android.permission.INTERNET"
-      ]
+      ],
+      "package": "com.faham112sorganization.mjai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -41,6 +38,12 @@
       "eas": {
         "projectId": "6f571730-f1d3-4465-a6ab-d5af2ac5de6e"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6f571730-f1d3-4465-a6ab-d5af2ac5de6e"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
     "owner": "faham112s-organization"
   }
