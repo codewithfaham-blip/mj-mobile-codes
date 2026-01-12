@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "MJ-Ai-Assistant",
+    "slug": "mj-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to the microphone for voice commands.",
+        "NSCameraUsageDescription": "This app needs access to the camera for vision features.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photos for uploading."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.CALL_PHONE",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f571730-f1d3-4465-a6ab-d5af2ac5de6e"
+      }
+    },
+    "owner": "faham112s-organization"
+  }
+}
